@@ -1,0 +1,533 @@
+body {
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.arbol {
+    z-index: 2;
+    height: 1200px;
+    width: 1000px;
+    position: absolute;
+    left: 1200px;
+    top: 1100px;
+}
+
+.tronco {
+    z-index: 1;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 1950px;
+    left: 1400px;
+}
+
+.papa_noel {
+    z-index: 3 ;
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    transform: rotateZ(-20deg);
+} 
+
+/*ANIMACION DE LOS COPOS DE NIEVE*/
+
+.c1 {
+    width: 100px;
+    position: absolute;
+    top: -100px;
+    transform: rotate(0deg);
+    animation-name: nieve;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve {
+    0% {
+        top: -100px;
+        left: 3%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 99%;
+        left: 3%;
+        transform: rotate(360deg);
+    }
+}
+
+.c2 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve2;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve2 {
+    0% {
+        top: -100px;
+        left: 7%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 7%;
+        transform: rotate(360deg);
+    }
+}
+
+.c3 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve3;
+    animation-duration: 5s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve3 {
+    0% {
+        top: -100px;
+        left: 12%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 12%;
+        transform: rotate(-360deg);
+    }
+}
+
+.c4 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve4;
+    animation-duration: 6s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve4 {
+    0% {
+        top: -100px;
+        left: 17%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 17%;
+        transform: rotate(360deg);
+    }
+}
+
+.c5 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve5;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve5 {
+    0% {
+        top: -100px;
+        left: 25%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 25%;
+        transform: rotate(180deg);
+    }
+}
+
+.c6 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve6;
+    animation-duration: 5.5s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve6 {
+    0% {
+        top: -100px;
+        left: 32%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 32%;
+        transform: rotate(280deg);
+    }
+}
+
+.c7 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve7;
+    animation-duration: 6s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve7 {
+    0% {
+        top: -100px;
+        left: 37%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 37%;
+        transform: rotate(-180deg);
+    }
+}
+
+.c8 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    top: -100px;
+    left: 90%;
+    transform: rotate(0deg);
+    animation-name: nieve8;
+    animation-duration: 7.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve8 {
+    0% {
+        top: -100px;
+        left: 43%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 43%;
+        transform: rotate(180deg);
+    }
+}
+
+.c9 {
+    width: 100px;
+    position: absolute;
+    top: -100px;
+    transform: rotate(0deg);
+    animation-name: nieve9;
+    animation-duration: 4.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve9 {
+    0% {
+        top: -100px;
+        left: 47%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 99%;
+        left: 47%;
+        transform: rotate(360deg);
+    }
+}
+
+.c10 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve10;
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve10 {
+    0% {
+        top: -100px;
+        left: 53%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 53%;
+        transform: rotate(360deg);
+    }
+}
+
+.c11 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve11;
+    animation-duration: 6s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve11 {
+    0% {
+        top: -100px;
+        left: 59%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 59%;
+        transform: rotate(-360deg);
+    }
+}
+
+.c12 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve12;
+    animation-duration: 4s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve12 {
+    0% {
+        top: -100px;
+        left: 65%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 65%;
+        transform: rotate(360deg);
+    }
+}
+
+.c13 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve13;
+    animation-duration: 8s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve13 {
+    0% {
+        top: -100px;
+        left: 73%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 73%;
+        transform: rotate(180deg);
+    }
+}
+
+.c14 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve14;
+    animation-duration: 7s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve14 {
+    0% {
+        top: -100px;
+        left: 80%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 80%;
+        transform: rotate(280deg);
+    }
+}
+
+.c15 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: nieve15;
+    animation-duration: 5s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve15 {
+    0% {
+        top: -100px;
+        left: 85%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 85%;
+        transform: rotate(-180deg);
+    }
+}
+
+.c16 {
+    width: 100px;
+    top: -100px;
+    position: absolute;
+    top: -100px;
+    left: 90%;
+    transform: rotate(0deg);
+    animation-name: nieve16;
+    animation-duration: 6.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes nieve16 {
+    0% {
+        top: -100px;
+        left: 90%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 90%;
+        transform: rotate(180deg);
+    }
+}
+
+/*PAPA NOEL EN TRINEO*/
+.papa_noel {
+    z-index: 20;
+    width: 700px;
+    position: absolute;
+    left: -700px;
+    bottom: 10%;
+    animation-name: papanoel;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    z-index: 0;
+}
+
+/*ANIMACION DE PAPA NOEL*/
+@keyframes papanoel {
+    0% {
+        left: -800px;
+        bottom: 30%;
+    }
+
+    15% {
+        bottom: 50%;
+    }
+
+
+    30% {
+        bottom: 60%;
+    }
+
+    50% {
+        bottom: 60%;
+        left: 2000px;
+    }
+
+    100% {
+        left: 6500px;
+        bottom: 80%;
+    }
+}
+
+.regalo {
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    left: -500px;
+    animation-name: regalo;
+    animation-duration: 2s;
+    animation-delay: 8.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes regalo {
+    0% {
+        left: 1850px;
+        bottom: 60%;
+    }
+
+    100% {
+        left: 2000px;
+        bottom: 18%;
+    }
+}
